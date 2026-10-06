@@ -1,5 +1,5 @@
 import { Navigate, Outlet } from "react-router";
-import Navbar from "./components/Navbar.jsx";
+import Navbar from "../components/Navbar";
 
 export default function PrivateRoutes() {
   const isLogged = localStorage.getItem("isLogged");
